@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_45028030bbd24576fd2bff601032818c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_45028030bbd24576fd2bff601032818c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_45028030bbd24576fd2bff601032818c = L.map(
+                "map_45028030bbd24576fd2bff601032818c",
+                {
+                    center: [12.8797, 121.774],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b9c896cfc930a29eb134c19c9a8fc08 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_45028030bbd24576fd2bff601032818c);
+        
+    
+            var marker_cluster_7452e2823a7f6f64fd69880b0f286b02 = L.markerClusterGroup(
+                {}
+            );
+            map_45028030bbd24576fd2bff601032818c.addLayer(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+            var marker_c7c44f9c47f09efc91a42ca4a0dc7909 = L.marker(
+                [14.4436, 120.482],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_4c0ade2680404045248369b533161e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_702b59751dc29894b3e715c64c005c8a = $(`<div id="html_702b59751dc29894b3e715c64c005c8a" style="width: 100.0%; height: 100.0%;">Maritime Academy of Asia and Pacific</div>`)[0];
+            popup_4c0ade2680404045248369b533161e6c.setContent(html_702b59751dc29894b3e715c64c005c8a);
+        
+
+        marker_c7c44f9c47f09efc91a42ca4a0dc7909.bindPopup(popup_4c0ade2680404045248369b533161e6c)
+        ;
+
+        
+    
+    
+            marker_c7c44f9c47f09efc91a42ca4a0dc7909.bindTooltip(
+                `<div>
+                     Maritime Academy of Asia and Pacific
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa204670b524decc11a28d737653fbe = L.marker(
+                [15.4869, 120.9736],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_9e006e9d92d0a6027d2cd8a3032f20d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c51fe0d707069b49abd7404f01d72e39 = $(`<div id="html_c51fe0d707069b49abd7404f01d72e39" style="width: 100.0%; height: 100.0%;">Midway Colleges, Inc.</div>`)[0];
+            popup_9e006e9d92d0a6027d2cd8a3032f20d0.setContent(html_c51fe0d707069b49abd7404f01d72e39);
+        
+
+        marker_cfa204670b524decc11a28d737653fbe.bindPopup(popup_9e006e9d92d0a6027d2cd8a3032f20d0)
+        ;
+
+        
+    
+    
+            marker_cfa204670b524decc11a28d737653fbe.bindTooltip(
+                `<div>
+                     Midway Colleges, Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d6952d6055866105bb5572eb9314522 = L.marker(
+                [14.2043, 121.0796],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_8f207b8f52a9d4a5ecc638c22d7558b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6bdff774d08a7b2daaa1aaed902ed07 = $(`<div id="html_b6bdff774d08a7b2daaa1aaed902ed07" style="width: 100.0%; height: 100.0%;">NYK-TDG Maritime Academy</div>`)[0];
+            popup_8f207b8f52a9d4a5ecc638c22d7558b7.setContent(html_b6bdff774d08a7b2daaa1aaed902ed07);
+        
+
+        marker_9d6952d6055866105bb5572eb9314522.bindPopup(popup_8f207b8f52a9d4a5ecc638c22d7558b7)
+        ;
+
+        
+    
+    
+            marker_9d6952d6055866105bb5572eb9314522.bindTooltip(
+                `<div>
+                     NYK-TDG Maritime Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f7bed16cd3db58a94c06fb4a4032f92 = L.marker(
+                [14.3403, 120.9587],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_eeeb26d0d144698f08b2d5a64a9da8a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c559777699041fcba2037a7ad783c7a = $(`<div id="html_5c559777699041fcba2037a7ad783c7a" style="width: 100.0%; height: 100.0%;">MOL Magsaysay Maritime Academy</div>`)[0];
+            popup_eeeb26d0d144698f08b2d5a64a9da8a9.setContent(html_5c559777699041fcba2037a7ad783c7a);
+        
+
+        marker_8f7bed16cd3db58a94c06fb4a4032f92.bindPopup(popup_eeeb26d0d144698f08b2d5a64a9da8a9)
+        ;
+
+        
+    
+    
+            marker_8f7bed16cd3db58a94c06fb4a4032f92.bindTooltip(
+                `<div>
+                     MOL Magsaysay Maritime Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b885bf5324e41ff88342eac3770f938 = L.marker(
+                [13.9495, 121.6204],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_142b359987aae21ee65f4dd44d6978f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62e18b3f49fecdedfe988bc9786d6a46 = $(`<div id="html_62e18b3f49fecdedfe988bc9786d6a46" style="width: 100.0%; height: 100.0%;">Manuel S. Enverga University Foundation</div>`)[0];
+            popup_142b359987aae21ee65f4dd44d6978f6.setContent(html_62e18b3f49fecdedfe988bc9786d6a46);
+        
+
+        marker_9b885bf5324e41ff88342eac3770f938.bindPopup(popup_142b359987aae21ee65f4dd44d6978f6)
+        ;
+
+        
+    
+    
+            marker_9b885bf5324e41ff88342eac3770f938.bindTooltip(
+                `<div>
+                     Manuel S. Enverga University Foundation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abb5bbdccb681b990c1ddcc0a931ec50 = L.marker(
+                [13.4121, 121.1803],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_f003197df76d8ed33346216bb055b7e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32f1c9c18be4af21fa5a8abb6717ece4 = $(`<div id="html_32f1c9c18be4af21fa5a8abb6717ece4" style="width: 100.0%; height: 100.0%;">Southwestern College of Maritime Business and Technology, Inc.</div>`)[0];
+            popup_f003197df76d8ed33346216bb055b7e5.setContent(html_32f1c9c18be4af21fa5a8abb6717ece4);
+        
+
+        marker_abb5bbdccb681b990c1ddcc0a931ec50.bindPopup(popup_f003197df76d8ed33346216bb055b7e5)
+        ;
+
+        
+    
+    
+            marker_abb5bbdccb681b990c1ddcc0a931ec50.bindTooltip(
+                `<div>
+                     Southwestern College of Maritime Business and Technology, Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4f05fbd973f4ed3e398eded2a27c36a = L.marker(
+                [12.9806, 123.9828],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_fef9ee1cfdf69a8611e075a2645984c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a97f5609265374fbbf81a5bb5f84378 = $(`<div id="html_6a97f5609265374fbbf81a5bb5f84378" style="width: 100.0%; height: 100.0%;">Bicol Merchant Marine College, Inc.</div>`)[0];
+            popup_fef9ee1cfdf69a8611e075a2645984c5.setContent(html_6a97f5609265374fbbf81a5bb5f84378);
+        
+
+        marker_e4f05fbd973f4ed3e398eded2a27c36a.bindPopup(popup_fef9ee1cfdf69a8611e075a2645984c5)
+        ;
+
+        
+    
+    
+            marker_e4f05fbd973f4ed3e398eded2a27c36a.bindTooltip(
+                `<div>
+                     Bicol Merchant Marine College, Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7850cde11f0ae09cf785839e454f087 = L.marker(
+                [13.1697, 123.7515],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_9b142db99cad84b02c68a57be89ec830 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eefedb9fcc32531a225f82c59419d20 = $(`<div id="html_9eefedb9fcc32531a225f82c59419d20" style="width: 100.0%; height: 100.0%;">Mariners' Polytechnic Colleges Foundation of Legaspi City</div>`)[0];
+            popup_9b142db99cad84b02c68a57be89ec830.setContent(html_9eefedb9fcc32531a225f82c59419d20);
+        
+
+        marker_b7850cde11f0ae09cf785839e454f087.bindPopup(popup_9b142db99cad84b02c68a57be89ec830)
+        ;
+
+        
+    
+    
+            marker_b7850cde11f0ae09cf785839e454f087.bindTooltip(
+                `<div>
+                     Mariners' Polytechnic Colleges Foundation of Legaspi City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b31b52f1f4818b5900d6767a36552d0 = L.marker(
+                [13.4237, 123.4063],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_33b598743da3d3588693c87987ff2e2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b65ef8040cee33a4c55d9da9171b8917 = $(`<div id="html_b65ef8040cee33a4c55d9da9171b8917" style="width: 100.0%; height: 100.0%;">University of St. Anthony</div>`)[0];
+            popup_33b598743da3d3588693c87987ff2e2a.setContent(html_b65ef8040cee33a4c55d9da9171b8917);
+        
+
+        marker_5b31b52f1f4818b5900d6767a36552d0.bindPopup(popup_33b598743da3d3588693c87987ff2e2a)
+        ;
+
+        
+    
+    
+            marker_5b31b52f1f4818b5900d6767a36552d0.bindTooltip(
+                `<div>
+                     University of St. Anthony
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0611f566d8649448cf372811b2e9c451 = L.marker(
+                [10.7113, 122.567],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_fffa1294be480637d20bee6fa3d07234 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9c8dbba262eb4059aa53bba75c92e04 = $(`<div id="html_f9c8dbba262eb4059aa53bba75c92e04" style="width: 100.0%; height: 100.0%;">St. Therese-MTC Colleges</div>`)[0];
+            popup_fffa1294be480637d20bee6fa3d07234.setContent(html_f9c8dbba262eb4059aa53bba75c92e04);
+        
+
+        marker_0611f566d8649448cf372811b2e9c451.bindPopup(popup_fffa1294be480637d20bee6fa3d07234)
+        ;
+
+        
+    
+    
+            marker_0611f566d8649448cf372811b2e9c451.bindTooltip(
+                `<div>
+                     St. Therese-MTC Colleges
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b12c7361c61013b85cc3a8193846479f = L.marker(
+                [10.6398, 122.9401],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_d030d82346fd2598088a720dcd14a1f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7ec730f15b859b8e2458e11c3c0420c = $(`<div id="html_e7ec730f15b859b8e2458e11c3c0420c" style="width: 100.0%; height: 100.0%;">John B Lacson Maritime University - Bacolod</div>`)[0];
+            popup_d030d82346fd2598088a720dcd14a1f2.setContent(html_e7ec730f15b859b8e2458e11c3c0420c);
+        
+
+        marker_b12c7361c61013b85cc3a8193846479f.bindPopup(popup_d030d82346fd2598088a720dcd14a1f2)
+        ;
+
+        
+    
+    
+            marker_b12c7361c61013b85cc3a8193846479f.bindTooltip(
+                `<div>
+                     John B Lacson Maritime University - Bacolod
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e98d72da0fb45accff5dd878c014ff96 = L.marker(
+                [11.5968, 122.7496],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_730cd4dd72ef393bdd1aee2ce5d6daa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56ffa443452ceeb057cc757634097e4c = $(`<div id="html_56ffa443452ceeb057cc757634097e4c" style="width: 100.0%; height: 100.0%;">Colegio de la Purisima</div>`)[0];
+            popup_730cd4dd72ef393bdd1aee2ce5d6daa3.setContent(html_56ffa443452ceeb057cc757634097e4c);
+        
+
+        marker_e98d72da0fb45accff5dd878c014ff96.bindPopup(popup_730cd4dd72ef393bdd1aee2ce5d6daa3)
+        ;
+
+        
+    
+    
+            marker_e98d72da0fb45accff5dd878c014ff96.bindTooltip(
+                `<div>
+                     Colegio de la Purisima
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f74ae57c8e7c6de9681342f20b826bba = L.marker(
+                [9.2491, 123.5906],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_17e47cbf55586f2e6d65cd67a198e92b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c206ab09c92855406155ffbcef1ef0a9 = $(`<div id="html_c206ab09c92855406155ffbcef1ef0a9" style="width: 100.0%; height: 100.0%;">Siquijor State College</div>`)[0];
+            popup_17e47cbf55586f2e6d65cd67a198e92b.setContent(html_c206ab09c92855406155ffbcef1ef0a9);
+        
+
+        marker_f74ae57c8e7c6de9681342f20b826bba.bindPopup(popup_17e47cbf55586f2e6d65cd67a198e92b)
+        ;
+
+        
+    
+    
+            marker_f74ae57c8e7c6de9681342f20b826bba.bindTooltip(
+                `<div>
+                     Siquijor State College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c7df48bd902ede88fddffbcf0ff1c87 = L.marker(
+                [10.3251, 123.9531],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_73e8842344a2128085197823c2f8829f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3159d0b7ecb49202d090e13b3375430 = $(`<div id="html_e3159d0b7ecb49202d090e13b3375430" style="width: 100.0%; height: 100.0%;">University of Cebu Lapu-lapu and Mandaue</div>`)[0];
+            popup_73e8842344a2128085197823c2f8829f.setContent(html_e3159d0b7ecb49202d090e13b3375430);
+        
+
+        marker_4c7df48bd902ede88fddffbcf0ff1c87.bindPopup(popup_73e8842344a2128085197823c2f8829f)
+        ;
+
+        
+    
+    
+            marker_4c7df48bd902ede88fddffbcf0ff1c87.bindTooltip(
+                `<div>
+                     University of Cebu Lapu-lapu and Mandaue
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab24823c16217f8aa18981936f390d49 = L.marker(
+                [10.287, 123.8782],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_d638082f2e961126bbbad1f64a47725f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8faac8ffbf748dede773103960d1c34a = $(`<div id="html_8faac8ffbf748dede773103960d1c34a" style="width: 100.0%; height: 100.0%;">University of Cebu Maritime Education and Training Center</div>`)[0];
+            popup_d638082f2e961126bbbad1f64a47725f.setContent(html_8faac8ffbf748dede773103960d1c34a);
+        
+
+        marker_ab24823c16217f8aa18981936f390d49.bindPopup(popup_d638082f2e961126bbbad1f64a47725f)
+        ;
+
+        
+    
+    
+            marker_ab24823c16217f8aa18981936f390d49.bindTooltip(
+                `<div>
+                     University of Cebu Maritime Education and Training Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74cf9343689a86425b9ec305cbd64046 = L.marker(
+                [7.115, 125.6031],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_ebffb2f6ae46b18247e619a7bf8c4120 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37bc79c17a35c9a7db141fb70d77f025 = $(`<div id="html_37bc79c17a35c9a7db141fb70d77f025" style="width: 100.0%; height: 100.0%;">DMMA College of Southern Philippines</div>`)[0];
+            popup_ebffb2f6ae46b18247e619a7bf8c4120.setContent(html_37bc79c17a35c9a7db141fb70d77f025);
+        
+
+        marker_74cf9343689a86425b9ec305cbd64046.bindPopup(popup_ebffb2f6ae46b18247e619a7bf8c4120)
+        ;
+
+        
+    
+    
+            marker_74cf9343689a86425b9ec305cbd64046.bindTooltip(
+                `<div>
+                     DMMA College of Southern Philippines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd943ff6b8f47e192546197fbdf68891 = L.marker(
+                [7.0648, 125.6],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_287ddbd131acab74abf91119ac10661c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_529dc737d22257e9f467633e530dedd5 = $(`<div id="html_529dc737d22257e9f467633e530dedd5" style="width: 100.0%; height: 100.0%;">Agro-Industrial Foundation College of the Philippines</div>`)[0];
+            popup_287ddbd131acab74abf91119ac10661c.setContent(html_529dc737d22257e9f467633e530dedd5);
+        
+
+        marker_fd943ff6b8f47e192546197fbdf68891.bindPopup(popup_287ddbd131acab74abf91119ac10661c)
+        ;
+
+        
+    
+    
+            marker_fd943ff6b8f47e192546197fbdf68891.bindTooltip(
+                `<div>
+                     Agro-Industrial Foundation College of the Philippines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ecf531f694dffe5c5f54da17b2f0449 = L.marker(
+                [6.5175, 124.8226],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_90ca6c80c8e05c5988427759a98fae7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f571d36793881acf11fb5228e74e1bf = $(`<div id="html_8f571d36793881acf11fb5228e74e1bf" style="width: 100.0%; height: 100.0%;">Regency Polytechnic College, Inc.</div>`)[0];
+            popup_90ca6c80c8e05c5988427759a98fae7f.setContent(html_8f571d36793881acf11fb5228e74e1bf);
+        
+
+        marker_5ecf531f694dffe5c5f54da17b2f0449.bindPopup(popup_90ca6c80c8e05c5988427759a98fae7f)
+        ;
+
+        
+    
+    
+            marker_5ecf531f694dffe5c5f54da17b2f0449.bindTooltip(
+                `<div>
+                     Regency Polytechnic College, Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51739880f17f36fdd56117b49318611d = L.marker(
+                [14.5995, 120.9842],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_51a210c7b91877e86cf66d1fd0acd94b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3c3c2532faf263a1fc35256d5c3310b = $(`<div id="html_a3c3c2532faf263a1fc35256d5c3310b" style="width: 100.0%; height: 100.0%;">National Teachers College</div>`)[0];
+            popup_51a210c7b91877e86cf66d1fd0acd94b.setContent(html_a3c3c2532faf263a1fc35256d5c3310b);
+        
+
+        marker_51739880f17f36fdd56117b49318611d.bindPopup(popup_51a210c7b91877e86cf66d1fd0acd94b)
+        ;
+
+        
+    
+    
+            marker_51739880f17f36fdd56117b49318611d.bindTooltip(
+                `<div>
+                     National Teachers College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e793a03e0bdaa7a6fe2389f26a5fb205 = L.marker(
+                [14.4376, 121.0035],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_80750b984327f1c95d0154406d87aefd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d9f2b138dc58cb2defa42c6c0473d42 = $(`<div id="html_3d9f2b138dc58cb2defa42c6c0473d42" style="width: 100.0%; height: 100.0%;">Philippine Merchant Marine School</div>`)[0];
+            popup_80750b984327f1c95d0154406d87aefd.setContent(html_3d9f2b138dc58cb2defa42c6c0473d42);
+        
+
+        marker_e793a03e0bdaa7a6fe2389f26a5fb205.bindPopup(popup_80750b984327f1c95d0154406d87aefd)
+        ;
+
+        
+    
+    
+            marker_e793a03e0bdaa7a6fe2389f26a5fb205.bindTooltip(
+                `<div>
+                     Philippine Merchant Marine School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a93b5ba459e86e3c98b00739ae723f12 = L.marker(
+                [9.3283, 123.2724],
+                {}
+            ).addTo(marker_cluster_7452e2823a7f6f64fd69880b0f286b02);
+        
+    
+        var popup_275b4e399f4496727654d7134aa9fe85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_201e1f69b4d80ad29f279a332be832dc = $(`<div id="html_201e1f69b4d80ad29f279a332be832dc" style="width: 100.0%; height: 100.0%;">Negros Maritime College Foundation, Inc.</div>`)[0];
+            popup_275b4e399f4496727654d7134aa9fe85.setContent(html_201e1f69b4d80ad29f279a332be832dc);
+        
+
+        marker_a93b5ba459e86e3c98b00739ae723f12.bindPopup(popup_275b4e399f4496727654d7134aa9fe85)
+        ;
+
+        
+    
+    
+            marker_a93b5ba459e86e3c98b00739ae723f12.bindTooltip(
+                `<div>
+                     Negros Maritime College Foundation, Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
